@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>孟威简历</title>
+  </head>
+  <body>
+    <style id="style"></style>
+    <div id="html"></div>
+    <div id="div1Wrapper">
+      <div id="div1"></div>
+    </div>
+    <style>* {
+        margin: 0px;
+        padding: 0px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      *::after {
+        box-sizing: border-box;
+      }
+      *::before {
+        box-sizing: border-box;
+      }
+      #html {
+        word-break: break-all;
+        padding: 10px 20px;
+      }
+      #div1 {
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      #div1::before {
+        content: "";
+        display: block;
+      }
+      #div1::after {
+        content: "";
+        display: block;
+      }
+      @media (max-width: 500px) {
+        #html {
+          height: 60vh;
+          overflow: auto;
+        }
+        #div1 {
+          position: absolute;
+          top: 15px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        #div1Wrapper {
+          height: 40vh;
+          position: relative;
+        }
+      } ;</style>
+    <script src="/main.1f19ae8e.js"></script>
+  </body>
+</html>
